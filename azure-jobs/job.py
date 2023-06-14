@@ -8,7 +8,7 @@ from azureml.core.runconfig import MpiConfiguration, DockerConfiguration
 # get workspace
 ws = Workspace.from_config("config/workspace.json")
 
-# Connect to traning cluster
+# Connect to training cluster
 compute_name = 'My-Cluster' 
 compute_target = ComputeTarget(workspace=ws, name=compute_name)
 
@@ -16,11 +16,11 @@ compute_target = ComputeTarget(workspace=ws, name=compute_name)
 experiment_name = 'My-Awesome-Experiment'
 exp = Experiment(workspace=ws, name=experiment_name)
 
-# Connect to curated enviroment
-enviroment_name = 'My-Enviroment'
-env = Environment.get(workspace=ws, name=enviroment_name)
+# Connect to curated environment
+environment_name = 'My-Environment'
+env = Environment.get(workspace=ws, name=environment_name)
 
-# Connecto to dataset
+# Connect to to dataset
 dataset = Dataset.get_by_name(ws, name='MyDataset')
 
 # training script
