@@ -35,3 +35,6 @@ Here is an example of how folder extractor could look like:
     ├── transforms.py
     └── trainer.py
 ```
+### Zero to Hero: A Comprehensive Tutorial for Distribute Training with Pytorch Lightning on Azure ML
+
+I wrote this  [Tutorial](https://medium.com/@felipe.villa.gen/distribute-traning-with-pytorch-lightning-on-azure-ml-512e0cb1728f) as a comprehensive guide for Distributed Training (Multiple Nodes and multiple GPUs per node) with PyTorch Lightning on Azure ML.
