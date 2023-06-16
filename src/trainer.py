@@ -94,6 +94,7 @@ def create_parser():
     parser.add_argument("--num_nodes", default=1, type=int)
 
     args = parser.parse_args()
+    return args
 
 def main():
     """
